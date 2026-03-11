@@ -10,16 +10,18 @@ class Count:
         print("")
         print("subtract")
         print("")
-    
 
-    while True:
+    counting = True
+    while counting == True:
         basic_menu()
         while True:    
             up_or_down = input("add or subtract? ")
             if up_or_down == "add":
                 number +=1
                 print(number)
+                basic_menu()
             elif up_or_down == "subtract":
                 number -=1
                 print(number)
+                basic_menu()
 
