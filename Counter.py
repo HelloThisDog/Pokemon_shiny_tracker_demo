@@ -1,22 +1,19 @@
 #the counter bit
 
 class Count:
-    
+    #number setter
     number = 0
 
     print(number)
 
-    def basic_menu():
+    def basic_menu(): #basic menu for the counting
         print("")
         print("add")
         print("")
         print("subtract")
         print("")
 
-
-
-
-    while True:
+    while True: #this is the counting bit
         basic_menu()
         while True:    
             up_or_down = input("what would you like to do? ")
