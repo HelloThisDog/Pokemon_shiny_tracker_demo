@@ -3,6 +3,9 @@
 class Pokemon:
     
     def __init__(self, name, level, colors):
-        self._name = name
-        self._level = level
-        self._colors = colors
+        self.name = name
+        self.level = level
+        self.colors = colors
+    
+    def to_dict(self):
+        return {'name': self.name, 'level': self.level, 'colors': self.colors}
