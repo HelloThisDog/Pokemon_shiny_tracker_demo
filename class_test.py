@@ -3,6 +3,6 @@ import json
 
 p1 = Count
 
-save = json.dumps(p1.to_dict())
+save = json.dumps(p1)
 
 print(save)
