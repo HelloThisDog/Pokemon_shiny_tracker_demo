@@ -75,12 +75,12 @@ class Count:
                         save_quit()
                         saving = input("what do you want to do? ")
                         if saving == "1":
-                            def to_dict(number):
-                                return {'amount': number}
-                            pray = json.dumps(number)
-                            print(pray)
+                            print(json.dumps(number))
+                            
+                           
                             break
                         elif saving == "2":
                             print("thank you for using this today")
                             break
+            
 
